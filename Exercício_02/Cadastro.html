@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercícios Sistemas Web</title>
+    </head>
+    <body>
+        <h2>Cadastro de alunos</h2>
+        <h3>Digite os dados corretamente</h3>
+        <form method="post" action="Cadastro_Concluido.html">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" size="50"><br>
+
+            <label for="cpf">Cpf:</label><br>
+            <input type="text" name="cpf" size="50"><br>
+
+            <label for="rg">RG:</label><br>
+            <input type="text" name="rg" size="50"><br>
+
+            <label for="data">Data de Nascimento:</label><br>
+            <input type="date" name="data"><br>
+
+            <label for="cep">Cep:</label><br>
+            <input type="text" name="cep" size="50"><br>
+
+            <label for="endereco">Endereço: </label><br>
+            <input type="text" name="endereco" size="50"><br>
+
+            <label for="cidade">Cidade: </label><br>
+            <input type="text" name="cidade" size="50"><br>
+
+            <label for="estado">Estado:</label><br>
+            <select name="cidade">
+                <option value="0">Selecione:</option>
+                <option value="1">AC - Acre</option>
+                <option value="2">AL - Alagoas</option>
+                <option value="3">AP - Amapá</option>
+                <option value="4">AM - Amazonas</option>
+                <option value="5">BA - Bahia</option>
+                <option value="6">CE - Ceará</option>
+                <option value="7">DF - Distrito Federal</option>
+                <option value="8">ES - Espírito Santo</option>
+                <option value="9">GO - Goiás</option>
+                <option value="10">MA - Maranhão</option>
+                <option value="11">MT - Mato Grosso</option>
+                <option value="12">MS - Mato Grosso do Sul</option>
+                <option value="13">MG - Minas Gerais</option>
+                <option value="14">PA - Pará</option>
+                <option value="15">PB - Paraíba</option>
+                <option value="16">PE - Pernambuco</option>
+                <option value="17">PI - Piauí</option>
+                <option value="18">RJ - Rio de Janeiro</option>
+                <option value="19">RN - Rio Grande do Norte</option>
+                <option value="20">RS - Rio Grande do Sul</option>
+                <option value="21">RO - Rondônia</option>
+                <option value="22">RR - Roraima</option>
+                <option value="23">SC - Santa Catarina</option>
+                <option value="24">SP - São Paulo</option>
+                <option value="25">SE - Sergipe</option>
+                <option value="26">TO - Tocantins</option>
+            </select><br>
+
+            <label for="genero">Gênero:</label><br>
+            <input type="radio" name="genero" id="feminino" value="F">
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="masculino" value="M">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="naobinario" value="NB">
+            <label for="naobinario">Não binário</label><br>
+
+            <label for="email">E-mail: </label><br>
+            <input type="text" name="email" size="50"><label><br>
+
+            <label for="senha">Senha: </label><br>
+            <input type="password" name="senha" size="50"><br>
+
+            <h5>Observação: O E-mail cadastrado também será usado como login.</h5>
+
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar dados"><br><br>
+
+        </form>
+        <a href="Menu.html">Voltar ao Menu</a><br>
+    </body>
+</html>

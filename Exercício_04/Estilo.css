@@ -1,0 +1,57 @@
+h2 {
+    color: #8B008B;
+    text-align: center;
+    font-size: 30pt;
+}
+
+h5 {
+    color: #696969;
+}
+
+input.button {
+    border-color: #CAE1EF;
+    background-color: #FFFFFF;
+}
+
+select {
+    border-color: #CAE1EF;
+}
+
+a {
+    color: #363636;
+    font-size: 14pt;
+}
+
+input.tam {
+    width: 400px;
+    border-color: #CAE1EF;
+}
+
+label {
+    color: #00008B;
+}
+
+label.radio {
+    color: #000000;
+}
+
+td {
+    border: 1px solid;
+    border-color: #00008B;
+}
+
+caption {
+    border: 2px solid;
+    color: #00008B;
+    font-size: 15pt;
+}
+
+th {
+    border: 1px solid;
+    border-color: #00008B;
+}
+
+table {
+    border: 2px solid;
+    border-color: #00008B;
+}
