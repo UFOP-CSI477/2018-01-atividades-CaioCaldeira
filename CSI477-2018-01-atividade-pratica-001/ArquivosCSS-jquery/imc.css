@@ -1,0 +1,61 @@
+div.minha-div {
+   width: 800px;
+   height: 325px;
+   border: 5px solid #00FF00;
+   position: relative;
+   left: 50%;
+   margin-left: -400px;
+   border-radius: 15px 50px;
+   background-color: #CFCFCF;
+}
+
+div.minha-div2 {
+   width: 800px;
+   height: 325px;
+   border: 5px solid #00FF00;
+   position: absolute;
+   left: 50%;
+   margin-left: -400px;
+   border-radius: 15px 50px;
+   background-color: #CFCFCF;
+}
+
+h1{
+    color: #0000FF;
+}
+
+label{
+    font-size: 25px;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    background-color: #B5B5B5;
+    border-color: #9c9c9c;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.imgeoq{
+    width: 650px;
+    left: 50%;
+    margin-left: -325px;
+    position: relative;
+}
+
+.adireitaemaior{
+    float: right;
+    width: 250px;
+}
+
+.cordoalerta{
+    color: #FF1493;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade didática para crianças</title>
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/Bootstrap4/css/bootstrap.css">
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/didatica.css" >
+        <script src="./ArquivosCSS-jquery/jquery-3.3.1.js"></script>
+        <script src="./ArquivosCSS-jquery/didatica-grupodepalavras.js"></script>
+    </head>
+    <body>
+        <h2>Selecione a palavra que não pertence a cada um dos grupos:</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV1">
+                    <h7>Acertou o grupo 1.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF1">
+                    <h7>Errou o grupo 1.</h7>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV2">
+                    <h7>Acertou o grupo 2.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF2">
+                    <h7>Errou o grupo 2.</h7>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV3">
+                    <h7>Acertou o grupo 3.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF3">
+                    <h7>Errou o grupo 3.</h7>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV4">
+                    <h7>Acertou o grupo 4.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF4">
+                    <h7>Errou o grupo 4.</h7>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <div class="col-md-3">
+                <label class="grupo" for="grupo1">Grupo 1:</label><br>
+                <input type="radio" name="grupo1" id="arroz" value="Arroz">
+                <label class="opcoes" for="arroz">Arroz</label><br>
+                <img class="img-200" src="./Img-grupodepalavras/Arroz.jpg"><br>
+
+                <input type="radio" name="grupo1" id="sabonete" value="Sabonete">
+                <label class="opcoes" for="sabonete">Sabonete</label><br>
+                <img class="img-200" src="./Img-grupodepalavras/Sabonete.webp"><br>
+
+                <input type="radio" name="grupo1" id="feijao" value="Feijão">
+                <label class="opcoes" for="feijao">Feijão</label><br>
+                <img class="img-200" src="./Img-grupodepalavras/Feijão.jpg"><br>
+
+                <input type="radio" name="grupo1" id="batata" value="Batata">
+                <label class="opcoes" for="batata">batata</label><br>
+                <img class="img-200" src="./Img-grupodepalavras/Batata.png"><br>
+            </div>
+            <div class="col-md-3">
+                <div class="linha-vertical">
+                    <label class="grupo" for="grupo2">Grupo 2:</label><br>
+                    <input type="radio" name="grupo2" id="bicicleta" value="Bicicleta">
+                    <label class="opcoes" for="bicicleta">Bicicleta</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Bicicleta.jpg"><br>
+
+                    <input type="radio" name="grupo2" id="carro" value="Carro">
+                    <label class="opcoes" for="carro">Carro</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Carro.png"><br>
+
+                    <input type="radio" name="grupo2" id="algodaodoce" value="Algodão doce">
+                    <label class="opcoes" for="algodaodoce">Algodão doce</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/algodaodoce.jpg"><br>
+
+                    <input type="radio" name="grupo2" id="moto" value="Moto">
+                    <label class="opcoes" for="moto">Moto</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Moto.png"><br>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="linha-vertical">
+                    <label class="grupo" for="grupo3">Grupo 3:</label><br>
+                    <input type="radio" name="grupo3" id="oculos" value="Óculos">
+                    <label class="opcoes" for="oculos">Oculos</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Oculos.webp"><br>
+
+                    <input type="radio" name="grupo3" id="cadeiradepraia" value="Cadeira de praia">
+                    <label class="opcoes" for="cadeiradepraia">Cadeira de praia</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Cadeiradepraia.jpg"><br>
+
+                    <input type="radio" name="grupo3" id="sombrinha" value="Sombrinha">
+                    <label class="opcoes" for="sombrinha">Sombrinha</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Sombrinha.jpg"><br>
+
+                    <input type="radio" name="grupo3" id="maquinadelavar" value="Máquina de lavar">
+                    <label class="opcoes" for="maquinadelavar">Máquina de lavar</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Maquinadelavar.jpg"><br>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="linha-vertical">
+                    <label class="grupo" for="grupo4">Grupo 4:</label><br>
+                    <input type="radio" name="grupo4" id="bola" value="Bola">
+                    <label class="opcoes" for="bola">Bola</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Bola.jpg"><br>
+
+                    <input type="radio" name="grupo4" id="skate" value="Skate">
+                    <label class="opcoes" for="skate">Skate</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Skate.jpg"><br>
+
+                    <input type="radio" name="grupo4" id="patins" value="Patins">
+                    <label class="opcoes" for="patins">Patins</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Patins.jpg"><br>
+
+                    <input type="radio" name="grupo4" id="chavedefenda" value="Chave de fenda">
+                    <label class="opcoes" for="chavedefenda">Chave de fenda</label><br>
+                    <img class="img-200" src="./Img-grupodepalavras/Chavedefenda.webp"><br>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <input type="button" id="corrigir" class="btn btn-success botaomaior adireita" value="Corrigir">
+        <input type="reset" id="resetar"class="btn btn-warning botaomaior adireita" value="Resetar">
+        <a href="didatica.html" class="btn btn-info botaomaior">Voltar</a>
+    </body>
+</html>

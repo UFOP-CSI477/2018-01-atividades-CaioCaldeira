@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade didática para crianças</title>
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/Bootstrap4/css/bootstrap.css">
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/didatica.css">
+        <script src="./ArquivosCSS-jquery/jquery-3.3.1.js"></script>
+        <script src="./ArquivosCSS-jquery/didatica-figurasgeometricas.js"></script>
+    </head>
+    <body>
+        <h2>Associe a figura geométrica com seu respectivo nome: </h2><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV1">
+                    <h7>Acertou o grupo 1.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF1">
+                    <h7>Errou o grupo 1.</h7>
+                </div>
+                <img class="img-500" src="./Img-figurasgeometricas/Circulo.png">
+                <select name="forma" id="select1" class="btn btn-info botaomaiormaior">
+                    <option value="0">Selecione:</option>
+                    <option value="1">Quadrado</option>
+                    <option value="2">Triângulo</option>
+                    <option value="3">Círculo</option>
+                    <option value="4">Retângulo</option>
+                </select>
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV2">
+                    <h7>Acertou o grupo 1.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF2">
+                    <h7>Errou o grupo 1.</h7>
+                </div>
+                <img class="img-500" src="./Img-figurasgeometricas/Quadrado.png">
+                <select name="forma" id="select2" class="btn btn-warning botaomaiormaior">
+                    <option value="0">Selecione:</option>
+                    <option value="1">Quadrado</option>
+                    <option value="2">Triângulo</option>
+                    <option value="3">Círculo</option>
+                    <option value="4">Retângulo</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV3">
+                    <h7>Acertou o grupo 1.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF3">
+                    <h7>Errou o grupo 1.</h7>
+                </div>
+                <img class="img-500" src="./Img-figurasgeometricas/Retangulo.png">
+                <select name="forma" id="select3" class="btn btn-danger botaomaiormaior">
+                    <option value="0">Selecione:</option>
+                    <option value="1">Quadrado</option>
+                    <option value="2">Triângulo</option>
+                    <option value="3">Círculo</option>
+                    <option value="4">Retângulo</option>
+                </select>
+                <div class="alert alert-success botaogigabiga" style="display: none" id="alertaV4">
+                    <h7>Acertou o grupo 1.</h7>
+                </div>
+                <div class="alert alert-danger botaogigabiga" style="display: none" id="alertaVF4">
+                    <h7>Errou o grupo 1.</h7>
+                </div>
+                <img class="img-500" src="./Img-figurasgeometricas/Triangulo.png">
+                <select name="forma" id="select4" class="btn btn-success botaomaiormaior">
+                    <option value="0">Selecione:</option>
+                    <option value="1">Quadrado</option>
+                    <option value="2">Triângulo</option>
+                    <option value="3">Círculo</option>
+                    <option value="4">Retângulo</option>
+                </select>
+            </div>
+        </div>
+        <input type="button" id="corrigir" class="btn btn-success botaomaior adireita" value="Corrigir">
+        <input type="reset" id="resetar"class="btn btn-warning botaomaior adireita" value="Resetar">
+        <a href="didatica.html" class="btn btn-info botaomaior">Voltar</a>
+
+    </body>
+</html>

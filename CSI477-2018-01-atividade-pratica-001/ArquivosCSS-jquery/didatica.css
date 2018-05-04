@@ -1,0 +1,64 @@
+.img-200{
+    height: 100px;
+}
+
+.img-500{
+    height: 300px;
+}
+
+.img-100porcento{
+    height: 100%;
+}
+
+.linha-vertical {
+  height: 575px;
+  border-left: 5px solid;
+  box-sizing:border-box;
+  border-color:#00008B;
+  width: 100%;
+}
+
+h2, h1 {
+    color: #00008B;
+}
+
+hr{
+  border-color:#551A8B;
+  box-sizing:border-box;
+  border-bottom: 5px solid;
+  width:100%;
+}
+
+label.grupo{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF0000;
+}
+
+label.opcoes{
+    font-weight: bold;
+    font-size: 15px;
+    color: #00008B;
+}
+
+input[type="radio"] {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.botaomaior{
+    width: 150px;
+}
+
+.botaomaiormaior{
+    width: 250px;
+}
+
+.botaogigabiga{
+    width: 100%;
+}
+
+.adireita{
+    float: right;
+}

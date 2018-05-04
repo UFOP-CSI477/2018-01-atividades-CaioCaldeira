@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Escala Richter</title>
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/Bootstrap4/css/bootstrap.css">
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/escala.css" >
+        <script src="./ArquivosCSS-jquery/jquery-3.3.1.js"></script>
+        <script src="./ArquivosCSS-jquery/escala.js"></script>
+    </head>
+    <body>
+        <div class=row>
+            <div class="col-md-2">
+                <img class="img-100porcento" src="./Img-escala/grafico.bmp"><br>
+            </div>
+            <div class="col-md-8">
+                <h1>Escala Richter</h1>
+                <h5>A escala mais conhecida para determinar qual a intensidade de um terremoto é a Escala Richter. Essa escala foi
+                desenvolvida por Charles F. Richter em 1935 no Instituto de Tecnologia da Califórnia a partir do estudo de cerca de
+                200 terremotos ao ano.</h5>
+                <h5>A amplitude é medida com um sismógrafo</h5>
+                <h5>O intervalo de tempo é o tempo entre a onda superficial e a onda de pressão máxima.</h5><br>
+                <label for="amplitude">Amplitude: (em milímetros)</label><br>
+                <input type="text" for="amplitude" id="amplitude" class=""><br>
+                <label for="tempo">Intervalo de tempo: (em segundos)</label><br>
+                <input type="text" for="tempo" id="tempo" class=""><br><br>
+
+                <input type="button" id="calcular" class="btn btn-success adireitaemaior" value="Calcular">
+                <input type="reset" id="resetar"class="btn btn-danger adireitaemaior" value="Resetar"><br><br><br><br>
+
+                <h6 id="escala"></h6><br>
+                <div class="alert alert-success img-100porcento" style="display: none" id="alertaV1">
+                    <h7>A magnitude de Richter está abaixo de 3,5. Efeitos: Geralmente não sentido, mas gravado.</h7>
+                </div>
+                <div class="alert alert-success" style="display: none" id="alertaV2">
+                    <h7>A magnitude de Richter está entre 3,5 e 5,4. Efeitos: Às vezes sentido, mas raramente causa danos.</h7>
+                </div>
+                <div class="alert alert-success" style="display: none" id="alertaV3">
+                    <h7>A magnitude de Richter está entre 5,5 e 6. Efeitos: No máximo causa pequenos danos a prédios bem construidos, mas pode danificar seriamente casas mal construídas em regiões próximas.</h7>
+                </div>
+                <div class="alert alert-success" style="display: none" id="alertaV4">
+                    <h7>A magnitude de Richter está entre 6,1 e 6,9. Efeitos: Pode ser destrutivo em áreas em torno de até 100km do epicentro.</h7>
+                </div>
+                <div class="alert alert-success" style="display: none" id="alertaV5">
+                    <h7>A magnitude de Richter está entre 7 e 7,9. Efeitos: Grande terremoto. Pode causar sérios danos numa grande faixa.</h7>
+                </div>
+                <div class="alert alert-success" style="display: none" id="alertaV6">
+                    <h7>A magnitude de Richter está acima de 7,9. Efeitos: Enorme terremoto. Pode causar graves danos em muitas áreas mesmo que estejam a centenas de quilômetros.</h7>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <img class="img-100porcento" src="./Img-escala/grafico.bmp"><br>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cálculo do IMC</title>
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/Bootstrap4/css/bootstrap.css">
+        <link rel="stylesheet" href="./ArquivosCSS-jquery/imc.css" >
+        <script src="./ArquivosCSS-jquery/jquery-3.3.1.js"></script>
+        <script src="./ArquivosCSS-jquery/imc.js"></script>
+    </head>
+    <body>
+        <h1 class="center">Cálculo do Índice de Massa Corporal(IMC)<h1><br>
+        <div class="minha-div">
+            <label for="peso">Peso:</label>
+            <input type="text" for="peso" id="peso" placeholder="Digite o seu peso em kg"><br>
+
+            <label for="altura">Altura:</label>
+            <input type="text" for="altura" id="altura" placeholder="Digite a sua altura em metros"><br><br>
+
+            <input type="button" class= "btn btn-danger adireitaemaior" id="calcular" value="Calcular">
+            <input type="button" class= "btn btn-warning adireitaemaior" id="limpar" value="Limpar">
+
+        </div>
+        <div class="minha-div2">
+            <h4 id="imc"></h4><br>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV1">
+                <h7>Seu IMC está abaixo de 18,5. Portanto você se enquadra na categoria de subnutrição.</h7>
+            </div>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV2">
+                <h7>Seu IMC está entre 18,5 e 24,9. Portanto você se enquadra na categoria de peso saudável.</h7>
+            </div>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV3">
+                <h7>Seu IMC está entre 25 e 29,9. Portanto você se enquadra na categoria de sobrepeso.</h7>
+            </div>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV4">
+                <h7>Seu IMC está entre 30 e 34,9. Portanto você se enquadra na categoria de obesidade grau 1.</h7>
+            </div>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV5">
+                <h7>Seu IMC está entre 35 e 39,9. Portanto você se enquadra na categoria de obesidade grau 2.</h7>
+            </div>
+            <div class="alert alert-success botaogigabiga center cordoalerta" style="display: none" id="alertaV6">
+                <h7>Seu IMC está acima de 40. Portanto você se enquadra na categoria de obesidade grau 3.</h7>
+            </div>
+        </div><br>
+        <img class="imgeoq" id="imgcalcular"src="./Img-calcularimc/calcular-imc.png"><br>
+    </body>
+</html>

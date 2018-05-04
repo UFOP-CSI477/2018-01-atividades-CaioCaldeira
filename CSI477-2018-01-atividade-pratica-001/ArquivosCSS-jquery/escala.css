@@ -1,0 +1,41 @@
+body{
+    background-color: #363636;
+}
+
+h1{
+    text-align: center;
+    color: #00008B;
+}
+
+h5{
+    color: #FFF;
+}
+
+label{
+    font-size: 18px;
+    color: #00008B;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    border-color: #9c9c9c;
+    color: #FF1493;
+    font-weight: bold;
+}
+
+.img-100porcento{
+    width: 100%;
+}
+
+.adireitaemaior{
+    float: right;
+    width: 250px;
+}
+
+h6.eoq{
+    text-align: center;
+    font-size: 18px;
+    color: #FF1493;;
+    font-weight: bold;
+}
