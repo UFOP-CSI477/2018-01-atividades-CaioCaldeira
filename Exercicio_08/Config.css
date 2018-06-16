@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    color: #00008B;
+}
+
+h4{
+    text-align: center;
+    color: #FF0000;
+}
+
+label.dif{
+    color: #551A8B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tfoot{
+    font-weight: bold;
+    color: #551A8B;
+}
+
+label{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+input.login{
+    width: 100%;
+    border-color: #FFFFFF;
+    color: #00008B;
+}
+
+input.eoq{
+    width: 100%;
+    border-color: #551A8B;
+    color: #00008B;
+}
+
+.width100{
+    width: 100%;
+}
+
+.adireitaemaior{
+    float: right;
+    width: 410px;
+}
+
+.adireita{
+    float: right;
+}
+
+div.minha-div {
+   width: 350px;
+   height: 550px;
+   border: 5px solid #00FF00;
+   position: relative;
+   left: 50%;
+   margin-left: -175px;
+   border-radius: 15px 50px;
+   background-color: #363636;
+}
+
+div.minha-div-cadastro {
+   width: 1000px;
+   height: 500px;
+   border: 5px solid #00FF00;
+   position: relative;
+   left: 50%;
+   margin-left: -500px;
+   border-radius: 15px 50px;
+   background-color: #363636;
+}
