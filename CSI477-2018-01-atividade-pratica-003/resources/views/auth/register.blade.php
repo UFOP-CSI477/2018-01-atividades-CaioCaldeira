@@ -40,6 +40,20 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="type" class="col-md-4 col-form-label text-md-right">Tipo de Usuário</label>
+
+                            <div class="col-md-6">
+                                <input id="type" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="type" value="{{ old('email') }}" required>
+
+                                @if ($errors->has('email'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">Senha</label>
 
                             <div class="col-md-6">

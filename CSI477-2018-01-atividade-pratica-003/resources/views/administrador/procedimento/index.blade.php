@@ -4,6 +4,93 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
+            @if (session('mensagem_store_sucesso'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_store_sucesso') }}</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_update_sucesso'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_update_sucesso') }}</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_store_error_vazio'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_store_error_vazio') }}</strong><br>
+                    Por favor preencha todos os campos para realizar o cadastro.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_update_error_vazio'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_update_error_vazio') }}</strong><br>
+                    Por favor preencha todos os campos para atualizar o cadastro.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_store_error_number'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_store_error_number') }}</strong><br>
+                    Por favor preencha o campo de preço somente com valor numérico.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_update_error_number'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_update_error_number') }}</strong><br>
+                    Por favor preencha o campo de preço somente com valor numérico.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_show_error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_show_error') }}</strong><br>
+                    Por favor insira um id válido para ter acesso a página de exibição.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_edit_error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_edit_error') }}</strong><br>
+                    Por favor insira um id válido para ter acesso a página de edição.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_destroy_error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_destroy_error') }}</strong><br>
+                    Impossível realizar exclusão deste procedimento. Pois este procedimento esta sendo solicitado nos testes.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
+            @if (session('mensagem_destroy_sucesso'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>{{ session('mensagem_destroy_sucesso') }}</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
             <div class="card">
                 <div class="card-header bg-dark text-white"><strong>Procedimentos</strong></div>
 
